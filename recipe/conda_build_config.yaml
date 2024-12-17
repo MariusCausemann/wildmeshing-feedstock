@@ -1,0 +1,8 @@
+c_compiler:
+  - gcc<13                         # [linux]
+  - clang                          # [osx]
+  - vs2019                         # [win]
+cxx_compiler:
+  - gxx<13                        # [linux]
+  - clangxx                       # [osx]
+  - vs2019                        # [win]
