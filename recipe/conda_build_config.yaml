@@ -7,9 +7,14 @@ cxx_compiler:
   - clangxx                       # [osx]
   - vs2019                        # [win]
   
-c_compiler_version: # [unix]
-  - 12.4 # [linux]
-
+c_compiler_version:
+  - 12    # [linux]
+  - 15    # [osx]
+  - 19.29 # [win]
+  
 cxx_compiler_version:
-  - 12.4 # [linux]
+  - 12    # [linux]
+  - 15    # [osx]
+  - 19.29 # [win]
+
 
