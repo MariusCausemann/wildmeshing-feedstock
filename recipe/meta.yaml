@@ -26,7 +26,7 @@ build:
     - move svgpathtools\svgpathtools wildmeshing\parse_svg  # [win]
     - dir wildmeshing\parse_svg  # [win]
     # - del svgpathtools  # [win]
-    - set "CMAKE_GENERATOR=NMake Makefiles"  # [win]
+    - set "CMAKE_GENERATOR=Ninja"  # [win]
     - {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -36,6 +36,7 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
     - make
+    - ninja
   host:
     - python
     - pip
