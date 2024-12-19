@@ -9,12 +9,12 @@ cxx_compiler:
   
 c_compiler_version:
   - 12    # [linux]
-  - 15    # [osx]
+  - 16    # [osx]
   - 19.29 # [win]
   
 cxx_compiler_version:
   - 12    # [linux]
-  - 15    # [osx]
+  - 16    # [osx]
   - 19.29 # [win]
 
 
