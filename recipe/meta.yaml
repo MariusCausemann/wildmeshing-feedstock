@@ -26,7 +26,8 @@ build:
     - move svgpathtools\svgpathtools wildmeshing\parse_svg  # [win]
     - dir wildmeshing\parse_svg  # [win]
     # - del svgpathtools  # [win]
-    - set "CMAKE_GENERATOR=NMake Makefiles"  # [win]
+    - if "%CMAKE_GENERATOR%"=="" set "CMAKE_GENERATOR=NMake Makefiles"  # [win]
+    - set "CMAKE_CXX_STANDARD=14"
     - {{ PYTHON }} -m pip install . -vv
 
 requirements:
