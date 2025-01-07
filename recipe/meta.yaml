@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/jorgensd/wildmeshing-python/archive/refs/heads/oneapi_tbb.zip
-    sha256: c36659b77e23bd77c466eb4ee0d356f96d3488c4a1992f5e6361a71a14c1687f
+    sha256: 9541e6cb99b5c6ce8baba2e4adf7eeee450e8b6d1823985f9f0bba92b517822e
   - url: https://github.com/teseoch/svgpathtools/archive/refs/heads/master.tar.gz
     sha256: ff7e0dfe3436d920f0493874463a253c5ac32f02a4d3b235f9547b4297b9b958
     folder: svgpathtools
