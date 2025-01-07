@@ -29,6 +29,7 @@ build:
     - set "CMAKE_GENERATOR=Ninja"  # [win]
     - set "CMAKE_PLAT="  # [win]
     - set "CMAKE_GENERATOR_PLATFORM="  # [win]
+    - set "CMAKE_GENERATOR_TOOLSET="  # [win]
     - {{ PYTHON }} -m pip install . -vv
 
 requirements:
