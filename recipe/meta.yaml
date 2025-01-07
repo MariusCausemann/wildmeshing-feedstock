@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/jorgensd/wildmeshing-python/archive/refs/heads/oneapi_tbb.zip
-    sha256: d133a1b66db9508b3c1e2d9def09b3387bffa01d2f11f1c68628a1be07b601b0
+    sha256: c36659b77e23bd77c466eb4ee0d356f96d3488c4a1992f5e6361a71a14c1687f
   - url: https://github.com/teseoch/svgpathtools/archive/refs/heads/master.tar.gz
     sha256: ff7e0dfe3436d920f0493874463a253c5ac32f02a4d3b235f9547b4297b9b958
     folder: svgpathtools
@@ -30,7 +30,6 @@ build:
     - set "CMAKE_PLAT="  # [win]
     - set "CMAKE_GENERATOR_PLATFORM="  # [win]
     - set "CMAKE_GENERATOR_TOOLSET="  # [win]
-    - set "CMAKE_BUILD_PARALLEL_LEVEL=1"  # [win]
     - {{ PYTHON }} -m pip install . -vv
 
 requirements:
