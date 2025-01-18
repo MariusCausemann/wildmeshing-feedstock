@@ -31,6 +31,7 @@ build:
     - set "CMAKE_GENERATOR_PLATFORM="  # [win]
     - set "CMAKE_GENERATOR_TOOLSET="  # [win]
     - set "CMAKE_BUILD_PARALLEL_LEVEL=1" # [win]
+    - set "CXXFLAGS=-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fstack-protector-strong -O2 -ffunction-sections -pipe -D_CRT_SECURE_NO_WARNINGS -nostdlib -fms-runtime-lib=dll -fuse-ld=lld -fno-aligned-allocation" # [win]
     - unset CMAKE_ARGS # [unix]
     - {{ PYTHON }} -m pip install . -vv
 
