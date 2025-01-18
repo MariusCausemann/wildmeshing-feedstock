@@ -1,20 +1,20 @@
 c_compiler:
   - gcc                            # [linux]
   - clang                          # [osx]
-  - clang                        # [win]
+  - vs2019                        # [win]
 cxx_compiler:
   - gxx                           # [linux]
   - clangxx                       # [osx]
-  - clangxx                        # [win]
+  - vs2019                        # [win]
   
 c_compiler_version:
   - 11    # [linux]
   - 16    # [osx]
-  - 16    # [win]
+  - 19.29    # [win]
   
 cxx_compiler_version:
   - 11    # [linux]
   - 16    # [osx]
-  - 16    # [win]
+  - 19.29    # [win]
 
 
