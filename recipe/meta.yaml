@@ -27,10 +27,6 @@ build:
     - dir wildmeshing\parse_svg  # [win]
     # - del svgpathtools  # [win]
     - set "CMAKE_GENERATOR=Ninja"  # [win]
-    - set "CMAKE_PLAT="  # [win]
-    - set "CMAKE_GENERATOR_PLATFORM="  # [win]
-    - set "CMAKE_GENERATOR_TOOLSET="  # [win]
-    - set "CMAKE_BUILD_PARALLEL_LEVEL=1" # [win]
     - unset CMAKE_ARGS # [unix]
     - {{ PYTHON }} -m pip install . -vv
 
