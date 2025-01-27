@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  - url: https://github.com/jorgensd/wildmeshing-python/archive/refs/heads/oneapi_tbb.zip
-    sha256: 1509247089ce453a737e5821becfdf73fb918236e5fca2b7f60826f66fad091b
+  - url: https://github.com/jorgensd/wildmeshing-python/archive/refs/heads/arm64.zip
+    sha256: b91ecc6760370f2fa6568673f64b3e2a572296810a07259699d06693e74c8a13
   - url: https://github.com/teseoch/svgpathtools/archive/refs/heads/master.tar.gz
     sha256: ff7e0dfe3436d920f0493874463a253c5ac32f02a4d3b235f9547b4297b9b958
     folder: svgpathtools
