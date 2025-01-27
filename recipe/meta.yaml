@@ -42,6 +42,9 @@ requirements:
     - cmake
     - make
     - ninja
+    - python
+    - pip
+    - setuptools
   host:
     - python
     - pip
