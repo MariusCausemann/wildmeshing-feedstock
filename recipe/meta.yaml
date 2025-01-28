@@ -32,6 +32,7 @@ build:
     - set "CMAKE_GENERATOR_TOOLSET="  # [win]
     - set "CMAKE_BUILD_PARALLEL_LEVEL=1"  # [win]
     - unset CMAKE_ARGS  # [unix]
+    - set CMAKE_ARGS="-Wno-error=unused-command-line-argument"  # [osx_arm64]
     - {{ PYTHON }} -m pip install . -vv
 
 requirements:
